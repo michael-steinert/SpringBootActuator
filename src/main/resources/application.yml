@@ -1,0 +1,14 @@
+info:
+  app:
+    name: "Spring Boot Actuator"
+    description: "Spring Boot Project"
+    version: 1.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
